@@ -480,7 +480,7 @@ padding-left: 15px;
 }
 .comand-text {
     margin-top: 10px;
-    margin-bottom:0px;
+    margin-bottom:16px;
 }
 
 /* container-footer html portfolio*/
@@ -759,5 +759,12 @@ padding: 6px 22px;
     justify-content: center;
     align-items: center;
 }
-
-
+.icon-mail,
+.icon-tel {
+    margin-right: 10px;
+    fill: #757575;
+}
+.icon-mail:hover,
+.icon-tel:hover {
+    fill: var(--accent-color);
+}
