@@ -648,7 +648,8 @@ padding: 6px 22px;
     display: flex;
     list-style-type: none; 
 }
-.clients-item:hover {
+.clients-item:hover,
+.clients-item:focus {
     border: 1px solid var(--accent-color);
 }
 .clients-item:last-child {
